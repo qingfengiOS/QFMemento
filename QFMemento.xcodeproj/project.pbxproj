@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD04C72821F84DAD007522C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD04C72721F84DAD007522C5 /* AppDelegate.swift */; };
+		FD04C72A21F84DAD007522C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD04C72921F84DAD007522C5 /* ViewController.swift */; };
+		FD04C72D21F84DAD007522C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD04C72B21F84DAD007522C5 /* Main.storyboard */; };
+		FD04C72F21F84DAE007522C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD04C72E21F84DAE007522C5 /* Assets.xcassets */; };
+		FD04C73221F84DAE007522C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD04C73021F84DAE007522C5 /* LaunchScreen.storyboard */; };
+		FD04C73D21F84DAF007522C5 /* QFMementoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD04C73C21F84DAF007522C5 /* QFMementoTests.swift */; };
+		FD04C74821F84DAF007522C5 /* QFMementoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD04C74721F84DAF007522C5 /* QFMementoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD04C73921F84DAF007522C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD04C71C21F84DAD007522C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD04C72321F84DAD007522C5;
+			remoteInfo = QFMemento;
+		};
+		FD04C74421F84DAF007522C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD04C71C21F84DAD007522C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD04C72321F84DAD007522C5;
+			remoteInfo = QFMemento;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD04C72421F84DAD007522C5 /* QFMemento.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QFMemento.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD04C72721F84DAD007522C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD04C72921F84DAD007522C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FD04C72C21F84DAD007522C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD04C72E21F84DAE007522C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD04C73121F84DAE007522C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD04C73321F84DAE007522C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD04C73821F84DAF007522C5 /* QFMementoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QFMementoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD04C73C21F84DAF007522C5 /* QFMementoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QFMementoTests.swift; sourceTree = "<group>"; };
+		FD04C73E21F84DAF007522C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD04C74321F84DAF007522C5 /* QFMementoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QFMementoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD04C74721F84DAF007522C5 /* QFMementoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QFMementoUITests.swift; sourceTree = "<group>"; };
+		FD04C74921F84DAF007522C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD04C72121F84DAD007522C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD04C73521F84DAF007522C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD04C74021F84DAF007522C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD04C71B21F84DAD007522C5 = {
+			isa = PBXGroup;
+			children = (
+				FD04C72621F84DAD007522C5 /* QFMemento */,
+				FD04C73B21F84DAF007522C5 /* QFMementoTests */,
+				FD04C74621F84DAF007522C5 /* QFMementoUITests */,
+				FD04C72521F84DAD007522C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD04C72521F84DAD007522C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD04C72421F84DAD007522C5 /* QFMemento.app */,
+				FD04C73821F84DAF007522C5 /* QFMementoTests.xctest */,
+				FD04C74321F84DAF007522C5 /* QFMementoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD04C72621F84DAD007522C5 /* QFMemento */ = {
+			isa = PBXGroup;
+			children = (
+				FD04C72721F84DAD007522C5 /* AppDelegate.swift */,
+				FD04C72921F84DAD007522C5 /* ViewController.swift */,
+				FD04C72B21F84DAD007522C5 /* Main.storyboard */,
+				FD04C72E21F84DAE007522C5 /* Assets.xcassets */,
+				FD04C73021F84DAE007522C5 /* LaunchScreen.storyboard */,
+				FD04C73321F84DAE007522C5 /* Info.plist */,
+			);
+			path = QFMemento;
+			sourceTree = "<group>";
+		};
+		FD04C73B21F84DAF007522C5 /* QFMementoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD04C73C21F84DAF007522C5 /* QFMementoTests.swift */,
+				FD04C73E21F84DAF007522C5 /* Info.plist */,
+			);
+			path = QFMementoTests;
+			sourceTree = "<group>";
+		};
+		FD04C74621F84DAF007522C5 /* QFMementoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FD04C74721F84DAF007522C5 /* QFMementoUITests.swift */,
+				FD04C74921F84DAF007522C5 /* Info.plist */,
+			);
+			path = QFMementoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD04C72321F84DAD007522C5 /* QFMemento */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD04C74C21F84DAF007522C5 /* Build configuration list for PBXNativeTarget "QFMemento" */;
+			buildPhases = (
+				FD04C72021F84DAD007522C5 /* Sources */,
+				FD04C72121F84DAD007522C5 /* Frameworks */,
+				FD04C72221F84DAD007522C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QFMemento;
+			productName = QFMemento;
+			productReference = FD04C72421F84DAD007522C5 /* QFMemento.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD04C73721F84DAF007522C5 /* QFMementoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD04C74F21F84DAF007522C5 /* Build configuration list for PBXNativeTarget "QFMementoTests" */;
+			buildPhases = (
+				FD04C73421F84DAF007522C5 /* Sources */,
+				FD04C73521F84DAF007522C5 /* Frameworks */,
+				FD04C73621F84DAF007522C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD04C73A21F84DAF007522C5 /* PBXTargetDependency */,
+			);
+			name = QFMementoTests;
+			productName = QFMementoTests;
+			productReference = FD04C73821F84DAF007522C5 /* QFMementoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FD04C74221F84DAF007522C5 /* QFMementoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD04C75221F84DAF007522C5 /* Build configuration list for PBXNativeTarget "QFMementoUITests" */;
+			buildPhases = (
+				FD04C73F21F84DAF007522C5 /* Sources */,
+				FD04C74021F84DAF007522C5 /* Frameworks */,
+				FD04C74121F84DAF007522C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD04C74521F84DAF007522C5 /* PBXTargetDependency */,
+			);
+			name = QFMementoUITests;
+			productName = QFMementoUITests;
+			productReference = FD04C74321F84DAF007522C5 /* QFMementoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD04C71C21F84DAD007522C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = qingfengiOS;
+				TargetAttributes = {
+					FD04C72321F84DAD007522C5 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					FD04C73721F84DAF007522C5 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FD04C72321F84DAD007522C5;
+					};
+					FD04C74221F84DAF007522C5 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FD04C72321F84DAD007522C5;
+					};
+				};
+			};
+			buildConfigurationList = FD04C71F21F84DAD007522C5 /* Build configuration list for PBXProject "QFMemento" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD04C71B21F84DAD007522C5;
+			productRefGroup = FD04C72521F84DAD007522C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD04C72321F84DAD007522C5 /* QFMemento */,
+				FD04C73721F84DAF007522C5 /* QFMementoTests */,
+				FD04C74221F84DAF007522C5 /* QFMementoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD04C72221F84DAD007522C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD04C73221F84DAE007522C5 /* LaunchScreen.storyboard in Resources */,
+				FD04C72F21F84DAE007522C5 /* Assets.xcassets in Resources */,
+				FD04C72D21F84DAD007522C5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD04C73621F84DAF007522C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD04C74121F84DAF007522C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD04C72021F84DAD007522C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD04C72A21F84DAD007522C5 /* ViewController.swift in Sources */,
+				FD04C72821F84DAD007522C5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD04C73421F84DAF007522C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD04C73D21F84DAF007522C5 /* QFMementoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD04C73F21F84DAF007522C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD04C74821F84DAF007522C5 /* QFMementoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD04C73A21F84DAF007522C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD04C72321F84DAD007522C5 /* QFMemento */;
+			targetProxy = FD04C73921F84DAF007522C5 /* PBXContainerItemProxy */;
+		};
+		FD04C74521F84DAF007522C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD04C72321F84DAD007522C5 /* QFMemento */;
+			targetProxy = FD04C74421F84DAF007522C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD04C72B21F84DAD007522C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD04C72C21F84DAD007522C5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD04C73021F84DAE007522C5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD04C73121F84DAE007522C5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD04C74A21F84DAF007522C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD04C74B21F84DAF007522C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD04C74D21F84DAF007522C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QFMemento/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qingfeng.www.QFMemento;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD04C74E21F84DAF007522C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QFMemento/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qingfeng.www.QFMemento;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FD04C75021F84DAF007522C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QFMementoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qingfeng.www.QFMementoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QFMemento.app/QFMemento";
+			};
+			name = Debug;
+		};
+		FD04C75121F84DAF007522C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QFMementoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qingfeng.www.QFMementoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QFMemento.app/QFMemento";
+			};
+			name = Release;
+		};
+		FD04C75321F84DAF007522C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QFMementoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qingfeng.www.QFMementoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QFMemento;
+			};
+			name = Debug;
+		};
+		FD04C75421F84DAF007522C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QFMementoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qingfeng.www.QFMementoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QFMemento;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD04C71F21F84DAD007522C5 /* Build configuration list for PBXProject "QFMemento" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD04C74A21F84DAF007522C5 /* Debug */,
+				FD04C74B21F84DAF007522C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD04C74C21F84DAF007522C5 /* Build configuration list for PBXNativeTarget "QFMemento" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD04C74D21F84DAF007522C5 /* Debug */,
+				FD04C74E21F84DAF007522C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD04C74F21F84DAF007522C5 /* Build configuration list for PBXNativeTarget "QFMementoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD04C75021F84DAF007522C5 /* Debug */,
+				FD04C75121F84DAF007522C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD04C75221F84DAF007522C5 /* Build configuration list for PBXNativeTarget "QFMementoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD04C75321F84DAF007522C5 /* Debug */,
+				FD04C75421F84DAF007522C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD04C71C21F84DAD007522C5 /* Project object */;
+}
