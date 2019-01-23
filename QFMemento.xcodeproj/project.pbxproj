@@ -14,6 +14,9 @@
 		FD04C73221F84DAE007522C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD04C73021F84DAE007522C5 /* LaunchScreen.storyboard */; };
 		FD04C73D21F84DAF007522C5 /* QFMementoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD04C73C21F84DAF007522C5 /* QFMementoTests.swift */; };
 		FD04C74821F84DAF007522C5 /* QFMementoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD04C74721F84DAF007522C5 /* QFMementoUITests.swift */; };
+		FD04C75C21F857C5007522C5 /* GameRole.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD04C75B21F857C5007522C5 /* GameRole.swift */; };
+		FD04C75E21F85AFC007522C5 /* RoleStateMemento.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD04C75D21F85AFC007522C5 /* RoleStateMemento.swift */; };
+		FD04C76021F85C56007522C5 /* RoleStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD04C75F21F85C56007522C5 /* RoleStateManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		FD04C74321F84DAF007522C5 /* QFMementoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QFMementoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD04C74721F84DAF007522C5 /* QFMementoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QFMementoUITests.swift; sourceTree = "<group>"; };
 		FD04C74921F84DAF007522C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD04C75B21F857C5007522C5 /* GameRole.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameRole.swift; sourceTree = "<group>"; };
+		FD04C75D21F85AFC007522C5 /* RoleStateMemento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoleStateMemento.swift; sourceTree = "<group>"; };
+		FD04C75F21F85C56007522C5 /* RoleStateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoleStateManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,9 @@
 			children = (
 				FD04C72721F84DAD007522C5 /* AppDelegate.swift */,
 				FD04C72921F84DAD007522C5 /* ViewController.swift */,
+				FD04C75B21F857C5007522C5 /* GameRole.swift */,
+				FD04C75D21F85AFC007522C5 /* RoleStateMemento.swift */,
+				FD04C75F21F85C56007522C5 /* RoleStateManager.swift */,
 				FD04C72B21F84DAD007522C5 /* Main.storyboard */,
 				FD04C72E21F84DAE007522C5 /* Assets.xcassets */,
 				FD04C73021F84DAE007522C5 /* LaunchScreen.storyboard */,
@@ -256,8 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD04C75E21F85AFC007522C5 /* RoleStateMemento.swift in Sources */,
+				FD04C75C21F857C5007522C5 /* GameRole.swift in Sources */,
 				FD04C72A21F84DAD007522C5 /* ViewController.swift in Sources */,
 				FD04C72821F84DAD007522C5 /* AppDelegate.swift in Sources */,
+				FD04C76021F85C56007522C5 /* RoleStateManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +446,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = QFMemento/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -451,6 +464,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = QFMemento/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
